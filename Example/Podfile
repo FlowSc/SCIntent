@@ -6,7 +6,6 @@ target 'SCIntent_Example' do
   target 'SCIntent_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
     pod 'RxSwift', '~> 5.0.1'
     pod 'RxCocoa', '~> 5.0.1'
   end
