@@ -5,11 +5,24 @@
 [![License](https://img.shields.io/cocoapods/l/SCIntent.svg?style=flat)](https://cocoapods.org/pods/SCIntent)
 [![Platform](https://img.shields.io/cocoapods/p/SCIntent.svg?style=flat)](https://cocoapods.org/pods/SCIntent)
 
+
+## Concept
+
+- Simple Uni-directional Architecture in iOS
+- Model - View - Intent
+- seperate binding function and rendering function in View Controller - binding is used view to intent, rendering is used model(transformed by intent) in View
+- stateObserver is managing all associated model's state in intent.
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+- iOS 11.0+
+- Xcode 11.0+
+- Swift 5.0+
 
 ## Installation
 

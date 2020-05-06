@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SCIntent'
   s.version          = '0.4.0'
-  s.summary          = 'MVI Template'
+  s.summary          = 'Simple Uni-directional Architecture in iOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'MVI Template hi hi'
+  s.description      = 'Simple Uni-directional Architecture in iOS - Model - View - Intent'
 
   s.homepage         = 'https://github.com/FlowSc/SCIntent'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

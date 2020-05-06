@@ -41,7 +41,7 @@ struct CounterIntent: Intent { // Declare Intent, All Business Logic has to be i
     }
 }
 
-class ViewController: IntentViewController<CounterIntent> { // View Controller is only binding bridge between view and intent.
+class ViewController: IntentViewController<CounterIntent> { // View Controller is only used binding between view and intent.
     
     @IBOutlet weak var downBtn: UIButton!
     @IBOutlet weak var upBtn: UIButton!
