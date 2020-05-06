@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SCIntent'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'Simple Uni-directional Architecture in iOS'
 
 # This description is used to generate tags and improve search results.
